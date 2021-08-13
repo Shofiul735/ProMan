@@ -11,7 +11,10 @@
         android:theme="@style/Theme.ProMan">
         <activity
             android:name=".SigninupActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"
+            />
         <activity
             android:name=".FirstActivity"
             android:exported="true"
