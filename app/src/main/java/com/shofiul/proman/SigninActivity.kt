@@ -10,6 +10,13 @@ class SigninActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySigninBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setSupportActionBar(binding)
+        setSupportActionBar(binding.signinToolbar)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.toolbar_icon_24)
+
+        binding.signinToolbar.setOnClickListener{
+            onBackPressed()
+        }
     }
 }
