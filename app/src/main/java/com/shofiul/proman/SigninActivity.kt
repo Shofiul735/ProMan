@@ -10,5 +10,6 @@ class SigninActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySigninBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setSupportActionBar(binding)
     }
 }
