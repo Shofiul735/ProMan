@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/signin_signup_button_color.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable/signin_signup_button_white.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/activity_signin.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_signinup.xml" value="0.203125" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.203125" />
       </map>
