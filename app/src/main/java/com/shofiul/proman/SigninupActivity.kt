@@ -1,5 +1,6 @@
 package com.shofiul.proman
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -16,6 +17,12 @@ class SigninupActivity : AppCompatActivity() {
             Toast.makeText(this,"You clicked on Sign in Button",
             Toast.LENGTH_SHORT
                 ).show()
+        }
+        
+        binding.btnSignUpIntro.setOnClickListener {
+            val intent = Intent(this,SignupActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }
