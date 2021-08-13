@@ -69,6 +69,6 @@
         android:layout_marginEnd="@dimen/btn_marginStartEnd"
         android:background="@drawable/signin_signup_button_white"
         android:text="@string/sign_up"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="@dimen/btn_text_size" />
 </LinearLayout>
