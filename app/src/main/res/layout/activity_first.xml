@@ -7,6 +7,7 @@
     tools:context=".FirstActivity">
 
     <TextView
+        android:id="@+id/tvProman"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/app_name"
