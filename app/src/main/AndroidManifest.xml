@@ -10,11 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMan">
         <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
             android:name=".SigninupActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/NoActionBar"
-            />
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".FirstActivity"
             android:exported="true"
@@ -28,7 +33,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
