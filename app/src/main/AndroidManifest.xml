@@ -12,12 +12,14 @@
         <activity
             android:name=".SignupActivity"
             android:exported="true"
+            android:parentActivityName=".SigninupActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             />
         <activity
             android:name=".SigninupActivity"
             android:exported="true"
+            android:parentActivityName=".FirstActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar" />
         <activity
