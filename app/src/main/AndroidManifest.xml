@@ -10,12 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProMan">
         <activity
+            android:name=".SigninActivity"
+            android:exported="true"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SigninupActivity"
+            />
+        <activity
             android:name=".SignupActivity"
             android:exported="true"
             android:parentActivityName=".SigninupActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".SigninupActivity"
             android:exported="true"
