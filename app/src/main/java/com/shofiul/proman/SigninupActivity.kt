@@ -2,6 +2,7 @@ package com.shofiul.proman
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.shofiul.proman.databinding.ActivitySigninupBinding
 
 class SigninupActivity : AppCompatActivity() {
@@ -10,5 +11,12 @@ class SigninupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySigninupBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnSignin.setOnClickListener{
+            Toast.makeText(this,"You clicked on Sign in Button",
+            Toast.LENGTH_SHORT
+                ).show()
+        }
+
     }
 }
