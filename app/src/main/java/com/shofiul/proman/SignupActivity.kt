@@ -14,5 +14,9 @@ class SignupActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.toolbar_icon_24)
         supportActionBar?.setDisplayShowTitleEnabled(false)
+        //enable back button
+        binding.signupToolbar.setNavigationOnClickListener{
+            onBackPressed()
+        }
     }
 }
